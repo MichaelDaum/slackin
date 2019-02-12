@@ -59,6 +59,7 @@
     "test": "mocha && eslint lib/**",
     "postinstall": "gulp",
     "build": "gulp",
+    "heroku-postbuild": "echo Skip builds on Heroku",
     "start": "chmod +x bin/slackin && ./bin/slackin"
   },
   "now": {
